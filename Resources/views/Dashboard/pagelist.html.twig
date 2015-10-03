@@ -1,0 +1,36 @@
+{# src/Acme/HelloBundle/Resources/views/Hello/index.html.twig #}
+{% extends 'AtksCmsBundle::cmsbase.html.twig' %}
+{% block ExtraStylesheets %}
+{% endblock %}
+{% block body %}
+    <div class="row">
+        <div class="col-md-12">
+           
+                    <table class="table table-striped">
+                        <tr> 
+                            <td>Page Id</td>
+                            <td>Name</td>
+                            <td>Type</td>
+                            <td>Description</td>
+                            <td>Active</td>
+                            <td></td>
+                        </tr>
+                        {% for page in pages if page.active %}
+                        <tr>
+                            <td>{{ page.id }}</td>
+                            <td>{{ page.name }}</td>
+                            <td>{{ page.pagetype }}</td>
+                            <td>{{ page.description }}</td>
+                            <td>{{ page.active }}</td>
+                            <td> <a href="/cms/page/edit/{{ page.id }}"> Edit </a></td>
+                        </tr>
+                        {% else %}
+                        <tr>
+                            <td colspan="4">no pages found</td>
+                        </tr>
+                        {% endfor %}
+                    </table>
+               
+        </div>
+    </div>
+{% endblock %}

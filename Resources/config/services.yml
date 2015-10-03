@@ -1,0 +1,7 @@
+parameters:
+#    dashboard_manager.example.class: Cms\DashboardManagerBundle\Example
+
+services:
+#    dashboard_manager.example:
+#        class: %dashboard_manager.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

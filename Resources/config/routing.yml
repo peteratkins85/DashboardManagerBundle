@@ -1,0 +1,7 @@
+cms_home:
+    pattern:  /
+    defaults: { _controller: DashboardManagerBundle:Dashboard:index }
+cms_home2:
+    pattern:  /dashboard
+    defaults: { _controller: DashboardManagerBundle:Dashboard:index }
+
