@@ -1,6 +1,6 @@
 {
     "packages": {
-        "src/CmsBundles/DashboardManagerBundle": {
+        "vendor/DashboardManagerBundle": {
             "dev-master": { @composer.json },
             "1.0.x-dev": { @composer.json },
             "0.0.1": { @composer.json },
