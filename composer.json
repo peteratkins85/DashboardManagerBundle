@@ -1,5 +1,5 @@
 {
-  "name": "src/CmsBundles/DashboardManagerBundle",
+  "name": "DashboardManagerBundle",
   "version": "0.0.1",
   "dist": {
     "url": "git@bitbucket.org:shinraken85/dashboardmanagerbundle.git",
