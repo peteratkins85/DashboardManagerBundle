@@ -1,0 +1,16 @@
+{
+  "name": "DashboardManagerBundle",
+  "version": "0.0.1",
+  "require": {
+        "composer/installers": "~1.0"
+  },
+  "dist": {
+    "url": "git@bitbucket.org:shinraken85/dashboardmanagerbundle.git",
+    "type": "git"
+  },
+  "extra": {
+          "installer-paths": {
+          "src/CmsBundles/{$name}": ["DashboardManagerBundle"]
+      }
+  }
+}
