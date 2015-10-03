@@ -1,7 +1,6 @@
 {
   "name": "DashboardManagerBundle",
   "version": "0.0.1",
-  "minimum-stability": "dev",
   "dist": {
     "url": "git@bitbucket.org:shinraken85/dashboardmanagerbundle.git",
     "type": "git"
