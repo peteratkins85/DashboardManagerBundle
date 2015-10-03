@@ -1,6 +1,7 @@
 {
   "name": "DashboardManagerBundle",
   "version": "0.0.1",
+  "type": "mine",
   "require": {
         "composer/installers": "~1.0"
   },
