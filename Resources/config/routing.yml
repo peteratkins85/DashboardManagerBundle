@@ -1,7 +1,7 @@
 cms_home:
-    pattern:  /
+    path:  /admin/
     defaults: { _controller: DashboardManagerBundle:Dashboard:index }
 cms_home2:
-    pattern:  /dashboard
+    path:  /admin/dashboard
     defaults: { _controller: DashboardManagerBundle:Dashboard:index }
 
