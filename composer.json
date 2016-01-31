@@ -23,7 +23,7 @@
         "willdurand/propel-typehintable-behavior": "Needed when using the propel implementation"
     },
     "autoload": {
-        "psr-4": { "Cms\\DashboardManagerBundle\\": "" }
+        "psr-4": { "Oni\\DashboardManagerBundle\\": "" }
     },
     "support": {
         "docs": "https://symfony.com/doc/master/bundles/FOSUserBundle/index.html"

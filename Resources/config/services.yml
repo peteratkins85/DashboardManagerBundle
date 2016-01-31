@@ -1,5 +1,5 @@
 parameters:
-#    dashboard_manager.example.class: Cms\DashboardManagerBundle\Example
+#    dashboard_manager.example.class: Oni\DashboardManagerBundle\Example
 
 services:
 #    dashboard_manager.example:
