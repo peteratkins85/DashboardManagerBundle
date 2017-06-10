@@ -1,6 +1,6 @@
 {
     "name": "oni-sys/dashboard-manager-bundle",
-    "type": "symfony-bundle",
+    "type": "oni-bundle",
     "license": "MIT",
     "authors": [
         {
