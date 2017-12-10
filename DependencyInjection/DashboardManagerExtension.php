@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Oni\DashboardManagerBundle\DependencyInjection;
+namespace Oni\DashboardManagerBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;
