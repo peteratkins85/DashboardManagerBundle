@@ -1,8 +1,8 @@
 <?php
 
-namespace Oni\DashboardManagerBundle\Controller;
+namespace App\Oni\DashboardManagerBundle\Controller;
 
-use Oni\CoreBundle\Controller\CoreController;
+use App\Oni\CoreBundle\Controller\CoreController;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Session\Session;
 use Symfony\Component\HttpFoundation\Request;
