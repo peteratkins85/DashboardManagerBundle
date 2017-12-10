@@ -1,6 +1,6 @@
 <?php
 
-namespace Oni\DashboardManagerBundle\Tests\Controller;
+namespace App\Oni\DashboardManagerBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 

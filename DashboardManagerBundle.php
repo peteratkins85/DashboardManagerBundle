@@ -1,6 +1,6 @@
 <?php
 
-namespace Oni\DashboardManagerBundle;
+namespace App\Oni\DashboardManagerBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
